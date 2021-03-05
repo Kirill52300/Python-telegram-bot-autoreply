@@ -1,0 +1,4 @@
+configparser==5.0.1
+PySocks==1.7.1
+pyTelegramBotAPI==3.7.6
+Telethon==1.19.5
