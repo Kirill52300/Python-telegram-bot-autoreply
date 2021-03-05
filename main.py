@@ -12,8 +12,7 @@ config = cfg.ConfigParser()
 
 
 
-with open("config.ini", "r") as config_file:
-     config.write(config_file)
+
 config.read('config.ini')
 Limit = bool(config["BotSettings"]["Limit"])
 max_count =int(config["BotSettings"]["Limitcount"])
